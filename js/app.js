@@ -14,7 +14,7 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
         // HOME STATES AND NESTED VIEWS ========================================
         .state('home', {
             url: '/home',
-            templateUrl: 'html/partial-home.html'
+            templateUrl: 'html/home.html'
         })
         
         // nested list with custom controller
