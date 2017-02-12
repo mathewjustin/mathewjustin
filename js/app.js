@@ -18,12 +18,10 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
         })
         
         // nested list with custom controller
-        .state('home.list', {
-            url: '/list',
-            templateUrl: 'html/hpartial-home-list.html',
-            controller: function($scope) {
-                $scope.dogs = ['Bernese', 'Husky', 'Goldendoodle'];
-            }
+        .state('pprofile', {
+            url: '/pprofile',
+            templateUrl: 'html/professional-profile.html',
+             
         })
         
         // nested list with just some random string data
