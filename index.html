@@ -18,9 +18,28 @@
 <style>
 /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
 .row.content {
-	height: 92vh
+	height: 93.2vh
 }
 
+
+.footer a {
+    color: #70726F;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid #70726F;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.footer a:first-child {
+    border-left: 1px solid #70726F;
+}
+
+.footer a:hover {
+    color: white;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
 /* Set gray background color and 100% height */
 .sidenav {
 	background-color: #f1f1f1;
@@ -87,13 +106,21 @@ footer {
     </div>
   </div>
 </nav>
+ 
 			<div ui-view></div>
 
 		</div>
 	</div>
 
-	<footer class="container-fluid">
-		<p>All rights reserved @Copy paste anything. Make the tech open.</p>
+	<footer class="container-fluid footer">
+ 		<div class="container text-center">
+ 		    <a href="https://github.com/justinkerala"><i class="fa fa-github"></i></a>  
+            <a href="https://www.facebook.com/justinkerala"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/jstnkerala"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/justin-maniyamprayil-b0033867/"><i class="fa fa-linkedin"></i></a>
+                      
+
+        </div>
 	</footer>
 
 </body>
