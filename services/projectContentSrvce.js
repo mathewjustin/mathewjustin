@@ -3,7 +3,6 @@
  * All the json objects will be hardcoded here.
  */
 
-routerApp = angular.module('routerApp');
 routerApp.service('pcontentService', pcontentService);
 
 function permitService($http) {
