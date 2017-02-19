@@ -5,9 +5,8 @@
 
 routerApp.service('pcontentService', pcontentService);
 
-function permitService($http) {
-	var prmtService = this;
-	
+function pcontentService($http) {
+ 	
 	var proObject=[ {
 		key : "invG",
 		des : "Invoice generator and Employee Management"
@@ -22,7 +21,7 @@ function permitService($http) {
 		des : "SilverSoft BPO Application"
 	} ];
 
-	prmtService.getProjectDatas = function(){ 
+	pcontentService.getProjectDatas = function(){ 
 		return proObject;
 	};
 
