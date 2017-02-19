@@ -64,7 +64,7 @@ routerApp.controller('projectContentController', function($scope) {
 	$scope.message = 'test';
 
 });
-ackgdPermit.$inject = ['$scope','pcontentService'];
+routerApp.$inject = ['$scope','pcontentService'];
 routerApp.controller('pprofileController', function($scope,pcontentService) {
 
 	$scope.message = 'test';
