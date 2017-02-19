@@ -3,9 +3,12 @@
  * All the json objects will be hardcoded here.
  */
 
- 
-angular.module('pcontentService',[])
-.service('pcontentService',function(){
+routerApp = angular.module('routerApp');
+routerApp.service('pcontentService', pcontentService);
+
+function permitService($http) {
+	var prmtService = this;
+	
 	var proObject=[ {
 		key : "invG",
 		des : "Invoice generator and Employee Management"
@@ -19,9 +22,9 @@ angular.module('pcontentService',[])
 		key : "Ssoft",
 		des : "SilverSoft BPO Application"
 	} ];
-	
-    
-    this.getProjectDatas = function(){ 
+
+	prmtService.getProjectDatas = function(){ 
 		return proObject;
 	};
-});
+
+};
