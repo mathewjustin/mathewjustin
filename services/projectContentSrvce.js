@@ -21,7 +21,7 @@ function pcontentService($http) {
 		des : "SilverSoft BPO Application"
 	} ];
 
-	pcontentService.getProjectDatas = function(){ 
+	this.getProjectDatas = function(){ 
 		return proObject;
 	};
 
