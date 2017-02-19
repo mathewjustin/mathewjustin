@@ -64,22 +64,10 @@ routerApp.controller('projectContentController', function($scope) {
 	$scope.message = 'test';
 
 });
-routerApp.controller('pprofileController', function($scope) {
+ackgdPermit.$inject = ['$scope','pcontentService'];
+routerApp.controller('pprofileController', function($scope,pcontentService) {
 
 	$scope.message = 'test';
 
-	$scope.proLists = [ {
-		key : "invG",
-		des : "Invoice generator and Employee Management"
-	}, {
-		key : "inRetlApp",
-		des : "In-Retail Application"
-	}, {
-		key : "cPortl",
-		des : "Customer Portal"
-	}, {
-		key : "Ssoft",
-		des : "SilverSoft BPO Application"
-	} ];
-
+	$scope.proLists = pcontentService.getProjectDatas(); 
 });
