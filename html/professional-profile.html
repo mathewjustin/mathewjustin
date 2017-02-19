@@ -1,19 +1,26 @@
-	<div class="col-sm-12">
+<div class="col-sm-12">
 				.
 				<h4>
 					<big>ME PROFESSIONALLY</big>
 				</h4>
 				<hr>
 				<div class="row">
-					<div class="col-sm-9">
-						 
-
-<iframe id="iframepdf" src="resume/Resume_Justin_Mathew.pdf" style="width: 100%; height: 75vh; display: block;"></iframe>
-
-					</div>
-					<div class="col-sm-3"></div>
-
-
+						<div class="col-sm-3" ng-repeat="pro in proLists">
+							<div class="thumbnail">
+								<a href="" target="_blank"> <img
+									src="./img/acsm.jpg" alt="Nature" style="width: 100%">
+									<div class="caption">
+										<p>{{pro.des}}</p>
+									</div>
+								</a>
+							</div>
+						</div>
 				</div>
 
+
 			</div>
+			
+		
+			
+			
+			

@@ -10,35 +10,35 @@
 <script src="js/bootstrap.min.js"></script>
 
 
- <script src="js/angular.js"></script>
-    <script src="js/angular-ui-router.js"></script>
-    <script src="js/app.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+<script src="js/angular.js"></script>
+<script src="js/angular-ui-router.js"></script>
+<script src="js/app.js"></script>
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <style>
 /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
 .row.content {
 	height: 93.2vh
 }
 
-
 .footer a {
-    color: #70726F;
-    font-size: 20px;
-    padding: 10px;
-    border-right: 1px solid #70726F;
-    -webkit-transition: all .5s ease;
-    transition: all .5s ease;
+	color: #70726F;
+	font-size: 20px;
+	padding: 10px;
+	border-right: 1px solid #70726F;
+	-webkit-transition: all .5s ease;
+	transition: all .5s ease;
 }
 
 .footer a:first-child {
-    border-left: 1px solid #70726F;
+	border-left: 1px solid #70726F;
 }
 
 .footer a:hover {
-    color: white;
-    -webkit-transition: all .5s ease;
-    transition: all .5s ease;
+	color: white;
+	-webkit-transition: all .5s ease;
+	transition: all .5s ease;
 }
 /* Set gray background color and 100% height */
 .sidenav {
@@ -81,57 +81,60 @@ footer {
 			 
 			</div>
  -->
- <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">Justins Stack</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a ui-sref="home">Home</a></li>
-        
-        <li><a ui-sref="pprofile">Professional Details</a></li>
+			<nav class="navbar navbar-inverse">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse"
+							data-target="#myNavbar">
+							<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+								class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">Justins Stack</a>
+					</div>
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav">
+							<li class="active"><a ui-sref="home">Home</a></li>
 
-        <li><a>Repositories</a></li>
+							<li><a ui-sref="pprofile">Professional Details</a></li>
 
-        <li><a>Blog</a></li>
-        
-      </ul>
-     
-    </div>
-  </div>
-</nav>
- 
+							<li><a>Repositories</a></li>
+
+							<li><a>Blog</a></li>
+
+						</ul>
+
+					</div>
+				</div>
+			</nav>
+
+			
+
 			<div ui-view></div>
 
 		</div>
 	</div>
 
 	<footer class="container-fluid footer">
- 		<div class="container text-center">
- 		    <a href="https://github.com/justinkerala" target="_blank"><i class="fa fa-github"></i></a>  
-            <a href="https://www.facebook.com/justinkerala" target="_blank"><i class="fa fa-facebook"></i></a>
-            <a href="https://twitter.com/jstnkerala" target="_blank"><i class="fa fa-twitter"></i></a>
-            <a href="https://www.linkedin.com/in/justin-maniyamprayil-b0033867/" target="_blank"><i class="fa fa-linkedin"></i></a>
-        </div>
+		<div class="container text-center">
+			<a href="https://github.com/justinkerala" target="_blank"><i
+				class="fa fa-github"></i></a> <a
+				href="https://www.facebook.com/justinkerala" target="_blank"><i
+				class="fa fa-facebook"></i></a> <a href="https://twitter.com/jstnkerala"
+				target="_blank"><i class="fa fa-twitter"></i></a> <a
+				href="https://www.linkedin.com/in/justin-maniyamprayil-b0033867/"
+				target="_blank"><i class="fa fa-linkedin"></i></a>
+		</div>
 	</footer>
 
 </body>
 <script type="text/javascript">
-$(function() {
-	   $("li").click(function() {
-	      // remove classes from all
-	      $("li").removeClass("active");
-	      // add class to the one we clicked
-	      $(this).addClass("active");
-	   });
+	$(function() {
+		$("li").click(function() {
+			// remove classes from all
+			$("li").removeClass("active");
+			// add class to the one we clicked
+			$(this).addClass("active");
+		});
 	});
-
-
 </script>
 </html>

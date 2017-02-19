@@ -21,8 +21,19 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
         .state('pprofile', {
             url: '/pprofile',
             templateUrl: 'html/professional-profile.html',
+             controller: 'pprofileController'
+        })
+        
+        
+        //projectContents.html
+        .state('projContents', {
+            url: '/projContents',
+            templateUrl: 'html/projectContents.html',
+            controller: 'projectContentController'
              
         })
+        
+        
         
         // nested list with just some random string data
         .state('home.paragraph', {
@@ -50,19 +61,26 @@ routerApp.controller('scotchController', function($scope) {
     
     $scope.message = 'test';
    
-    $scope.scotches = [
-        {
-            name: 'Macallan 12',
-            price: 50
-        },
-        {
-            name: 'Chivas Regal Royal Salute',
-            price: 10000
-        },
-        {
-            name: 'Glenfiddich 1937',
-            price: 20000
-        }
-    ];
+    
     
 });
+
+routerApp.controller('projectContentController', function($scope) {
+   $scope.message = 'test';
+   
+    
+    
+});
+routerApp.controller('pprofileController', function($scope) {
+
+	          $scope.message = 'test';
+	          
+	          $scope.proLists= '[{key:"invG",des:"Invoice generator and Employee Management"}'
+	        	               +',{key:"inRetlApp",des:"In-Retail Application"}'
+	        	               +',{key:"cPortl",des:"Customer Portal"}'
+	        	               +',{key:"Ssoft",des:"SilverSoft BPO Application"}'
+	        	  				+']';
+	    
+	          
+	          
+	});
