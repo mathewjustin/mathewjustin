@@ -2,6 +2,7 @@
  * This service is to serve contents to the project details.
  * All the json objects will be hardcoded here.
  */
+var routerApp = angular.module('routerApp', [ 'ui.router' ]);
 
 routerApp.service('pcontentService', pcontentService);
 
