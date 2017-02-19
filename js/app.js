@@ -1,7 +1,6 @@
 
 var routerApp = angular.module('routerApp', [ 'ui.router' ]);
 
-routerApp.$inject = ['$scope','pcontentService'];
 
 routerApp.config(function($stateProvider, $urlRouterProvider) {
 
