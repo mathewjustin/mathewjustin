@@ -64,10 +64,4 @@ routerApp.controller('projectContentController', function($scope) {
 	$scope.message = 'test';
 
 });
-routerApp.$inject = ['$scope','pcontentService'];
-routerApp.controller('pprofileController', function($scope,pcontentService) {
 
-	$scope.message = 'test';
-
-	$scope.proLists = pcontentService.getProjectDatas(); 
-});
