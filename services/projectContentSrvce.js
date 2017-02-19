@@ -3,7 +3,7 @@
  * All the json objects will be hardcoded here.
  */
 
-app.service('pcontentService', pcontentService);
+routerApp.service('pcontentService', pcontentService);
 
 function pcontentService($http) {
 	var prmtService = this;
