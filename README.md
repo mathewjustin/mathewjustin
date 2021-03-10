@@ -6,4 +6,11 @@
 
 <p align='center'>
    <a href="https://www.linkedin.com/in/justinmamathew/"><img height="30" src="https://i.stack.imgur.com/gVE0j.png"></a>&nbsp;&nbsp;
+   
  </p>
+<p align="center" >
+<a href="https://github.com/anuraghazra/github-readme-stats"> 
+    <img  src="https://github-readme-stats.vercel.app/api?username=mathewjustin&&show_icons=true&theme=radical"/>
+  </a>
+
+</p>
