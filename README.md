@@ -14,9 +14,7 @@
   </a>
 </p>   
 <p align="center" >
-<a href="https://github.com/mathewjustin/mathewjustin/raw/master/resume/JUSTIN%20MATHEW%20-%20v1.pdf"> 
-   | Resume | I am looking for a job |
-  </a>
+Assigned myself to PIP for another 20 years 😆 learning new things  
 </p>   
   
 
