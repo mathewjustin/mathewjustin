@@ -14,7 +14,7 @@
   </a>
 </p>   
 <p align="center" >
-Assigned myself to PIP for another 20 years 😆 learning new things  
+Never settle!
 </p>   
   
 
