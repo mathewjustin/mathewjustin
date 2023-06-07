@@ -13,6 +13,13 @@
     <img  src="https://github-readme-stats.vercel.app/api?username=mathewjustin&&show_icons=true&theme=radical"/>
   </a>
 </p>   
+
+<p align="center" >
+<a href="https://github.com/anuraghazra/github-readme-stats"> 
+    <img  src="https://github-readme-stats.vercel.app/api?username=mathewjustin&&show_icons=true&theme=radical"/>
+  </a>
+</p>   
+
 <p align="center" >
 Never settle!
 </p>   
