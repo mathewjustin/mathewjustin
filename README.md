@@ -16,9 +16,6 @@ I write about engineering at [justinmathew.com](https://www.justinmathew.com/) a
 [postgres-storage-advisor](https://github.com/mathewjustin/postgres-storage-advisor)  
 Kubernetes operator for monitoring Postgres storage issues.
 
-[leader-follower](https://github.com/mathewjustin/leader-follower)  
-Simple Postgres leader/follower setup with Docker.
-
 [justinmathew.com](https://www.justinmathew.com/)  
 Technical blog with notes on databases, systems, Kubernetes, Java, Go, and algorithms.
 
