@@ -1,27 +1,45 @@
-<div align="center">
-   <h1>Hi there, I'm <a href="https://justinblogs.com">Justin</a> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"> </h1>
-   
-   
- </div>
+# Justin Mathew
 
-<p align='center'>
-   <a href="https://www.linkedin.com/in/justinmamathew/"><img height="30" src="https://i.stack.imgur.com/gVE0j.png"></a>&nbsp;&nbsp;
-   
- </p>
-<p align="center" >
-<a href="https://github.com/anuraghazra/github-readme-stats"> 
-    <img  src="https://github-readme-stats.vercel.app/api?username=mathewjustin&&show_icons=true&theme=radical"/>
-  </a>
-</p>   
+Backend engineer working on distributed systems, databases, Kubernetes, and practical software design.
 
-<p align="center" >
-<a href="https://github.com/anuraghazra/github-readme-stats"> 
-    <img  src="https://github-readme-stats.vercel.app/api/top-langs/?username=mathewjustin&layout=pie"/>
-  </a>
-</p>   
+I write about engineering at [justinmathew.com](https://www.justinmathew.com/) and build focused projects around Postgres, Go, Java, operators, and system design.
 
-<p align="center" >
-Never settle!
-</p>   
-  
+## Current Focus
 
+- Distributed systems and database internals
+- Kubernetes operators and platform tooling
+- Java, Go, Postgres, Spring Boot, and backend architecture
+- Clear engineering notes from real debugging and learning
+
+## Featured Work
+
+[postgres-storage-advisor](https://github.com/mathewjustin/postgres-storage-advisor)  
+Kubernetes operator for monitoring Postgres storage issues.
+
+[leader-follower](https://github.com/mathewjustin/leader-follower)  
+Simple Postgres leader/follower setup with Docker.
+
+[justinmathew.com](https://www.justinmathew.com/)  
+Technical blog with notes on databases, systems, Kubernetes, Java, Go, and algorithms.
+
+## Tech I Use
+
+Java · Go · Python · Postgres · Spring Boot · Kubernetes · Docker · Linux · GitHub Actions
+
+## Stats
+
+<p>
+  <img src="https://github-readme-stats.vercel.app/api?username=mathewjustin&show_icons=true&theme=default&hide_border=true" alt="Justin's GitHub stats" />
+</p>
+
+<p>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mathewjustin&layout=compact&hide_border=true" alt="Top languages" />
+</p>
+
+## Find Me
+
+- Blog: [justinmathew.com](https://www.justinmathew.com/)
+- LinkedIn: [Justin Mathew](https://www.linkedin.com/in/justin-mathew-b0033867/)
+- GitHub: [@mathewjustin](https://github.com/mathewjustin)
+
+Never settle.
