@@ -26,11 +26,11 @@ Java · Go · Python · Postgres · Spring Boot · Kubernetes · Docker · Linux
 ## Stats
 
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=mathewjustin&show_icons=true&theme=default&hide_border=true" alt="Justin's GitHub stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mathewjustin&theme=github" alt="Justin's GitHub profile summary" />
 </p>
 
 <p>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mathewjustin&layout=compact&hide_border=true" alt="Top languages" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mathewjustin&theme=github-compact&hide_border=true" alt="Justin's GitHub activity graph" />
 </p>
 
 ## Find Me
