@@ -1,6 +1,6 @@
 # Justin Mathew
 
-Backend engineer working on distributed systems, databases, Kubernetes, and practical software design.
+Backend engineer working on distributed systems, postgres, Kubernetes, and practical software design. Currently exploring and contributing to various CDC technologies and its postgres connectors. 
 
 I write about engineering at [justinmathew.com](https://www.justinmathew.com/) and build focused projects around Postgres, Go, Java, operators, and system design.
 
