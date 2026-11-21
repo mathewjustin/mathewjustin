@@ -4,11 +4,11 @@ Senior platform engineer. I run **Postgres and Redis as a platform on Kubernetes
 
 ## What I work on
 
-- **Databases on Kubernetes**: operating Postgres and Redis fleets with operators, in disconnected and regulated environments
-- **Connection routing**: proxying and TLS/SNI-based routing so many database instances can share far fewer load balancers
+- **Databases on Kubernetes**: operating Postgres and Redis fleets with operators
+- **Secure connectivity**: TLS everywhere, certificate rotation, connection pooling, and locking down who can reach a database
 - **Backup reliability**: proving backups actually happened on time, not just that they were scheduled
 - **Change data capture**: finding and fixing Postgres edge cases in CDC and schema tools
-- **Security and networking** (current deep dive): TLS handshakes, certificate chains and root CAs, SNI, and how trust actually works on the wire
+- **Security and networking** (current deep dive): TLS handshakes, certificate chains and root CAs, and how trust actually works on the wire
 
 ## Upstream contributions
 
